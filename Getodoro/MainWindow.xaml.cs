@@ -102,6 +102,8 @@ namespace Getodoro
 
         private void buttonBreak_Click(object sender, RoutedEventArgs e)
         {
+            MetroMessageBox mmb = new MetroMessageBox();
+            mmb.ShowDialog();
         }
 
         private void buttonAdd_Click(object sender, RoutedEventArgs e)
